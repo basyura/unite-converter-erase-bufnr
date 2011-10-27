@@ -18,7 +18,7 @@ function! s:converter.filter(candidates, context)
   endfor
 
   return a:candidates
-endfunction"}}}
+endfunction
 
 let &cpo = s:save_cpo
 unlet s:save_cpo
